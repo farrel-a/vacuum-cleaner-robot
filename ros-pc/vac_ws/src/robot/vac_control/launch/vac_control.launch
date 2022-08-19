@@ -1,0 +1,4 @@
+<launch>
+    <node name="vac_control_node" pkg="vac_control" type="vac_control_node" output="screen" respawn="true"/>
+    <rosparam command="load" file="$(find vac_control)/config/vac_control.yaml"/>
+</launch>

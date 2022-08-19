@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find vac_control)/launch/vac_control.launch"/>
+    <include file="$(find vac_launch)/launch/rosserial.launch"/>
+</launch>
